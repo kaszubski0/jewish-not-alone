@@ -1,0 +1,108 @@
+/* Print: a clean page of names, numbers, and addresses. */
+@page { margin: 16mm 14mm; }
+
+:root {
+  --ink: #000;
+  --ink-muted: #333;
+  --ink-faint: #444;
+  --paper: #fff;
+  --surface: #fff;
+  --line: #bbb;
+}
+
+html, body {
+  background: #fff !important;
+  color: #000 !important;
+  font-size: 11pt !important;
+  line-height: 1.45 !important;
+}
+
+.skip-link,
+.site-nav,
+.menu-btn,
+.menu-overlay,
+.filter,
+.filter__status,
+.token,
+.route__arrow,
+.notes-actions,
+.notes-status,
+.notes-draft,
+.nojs-note,
+.footer-links,
+.footer-find .btn,
+.split__panel,
+.btn-row,
+.top-line {
+  display: none !important;
+}
+
+.frame { margin: 0 !important; border-radius: 0 !important; min-height: 0 !important; background: #fff !important; }
+.wrap, .site-header { padding-left: 0 !important; padding-right: 0 !important; max-width: none !important; }
+.site-header { min-height: 0 !important; padding-top: 0 !important; }
+.hero, .page-head { padding: 0 0 12pt !important; }
+.section, .section--statement { padding: 0 0 12pt !important; }
+
+.hero-title { font-size: 30pt !important; text-align: left !important; }
+.hero .standfirst { text-align: left !important; margin-left: 0 !important; }
+.page-title { font-size: 22pt !important; }
+.statement { font-size: 16pt !important; text-align: left !important; }
+.standfirst { font-size: 12pt !important; }
+.entry-title { font-size: 15pt !important; }
+.section-title, .prose h2 { font-size: 15pt !important; margin-top: 12pt !important; }
+
+.inverted {
+  background: #fff !important;
+  color: #000 !important;
+  border: 1.5pt solid #000 !important;
+  border-radius: 8pt !important;
+  padding: 10pt 12pt !important;
+  font-size: 13pt !important;
+}
+
+/* Show every card, even if a filter was active. */
+.org[hidden] { display: flex !important; }
+.org, .route, .split__panel, .notes-form, .callout {
+  box-shadow: none !important;
+  border: 1pt solid #999 !important;
+  border-radius: 6pt !important;
+  break-inside: avoid;
+  page-break-inside: avoid;
+  padding: 10pt !important;
+}
+.org-list, .route-grid { display: block !important; }
+.org, .route { margin-bottom: 10pt !important; }
+.org__body { display: block !important; }
+.facts { font-size: 10pt !important; }
+.facts th, .facts td { padding: 3pt 0 !important; }
+
+/* The primary button is just the first link — the URL is printed below it. */
+.org__foot .btn {
+  background: none !important;
+  color: #000 !important;
+  border: 0 !important;
+  padding: 0 !important;
+  font-weight: 600 !important;
+}
+.org__foot .btn svg { display: none !important; }
+
+/* Print URLs after external links and phone/email links. */
+a[href^="http"]::after {
+  content: " (" attr(href) ")";
+  font-size: 9pt;
+  font-weight: 400;
+  word-break: break-all;
+}
+.route a::after,
+.wordmark::after { content: none !important; }
+a { color: #000 !important; text-decoration: underline; }
+.visually-hidden { display: none !important; }
+
+/* Expand all <details> (JS also opens them on beforeprint). */
+details > summary::after { content: none !important; }
+details::details-content { content-visibility: visible; display: contents; }
+details { break-inside: avoid; }
+
+.site-footer { margin-top: 12pt !important; padding-top: 8pt !important; border-top: 1pt solid #999 !important; }
+.crisis-line { color: #000 !important; }
+.footer-find { border: 0 !important; padding: 0 !important; }

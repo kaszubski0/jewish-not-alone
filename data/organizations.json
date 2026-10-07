@@ -1,0 +1,621 @@
+[
+  {
+    "id": "scn",
+    "name": "SCN",
+    "fullName": "Secure Community Network",
+    "kicker": "Reporting · Safety",
+    "categories": [
+      "antisemitism"
+    ],
+    "ageRange": "all",
+    "primary": false,
+    "description": [
+      "The official safety and security organization of the Jewish community in North America. Its incident form covers threats, assaults, suspicious people or activity, vandalism and property damage, threatening calls, texts or social media posts, and antisemitic flyers.",
+      "The form has an option to stay anonymous. Reports go to SCN's Duty Desk and to your local Federation security director."
+    ],
+    "acceptsNonCriminal": true,
+    "anonymous": "yes",
+    "cost": "Free",
+    "referralRequired": false,
+    "contact": [
+      {
+        "type": "form",
+        "label": "Report an incident online",
+        "url": "https://www.securecommunitynetwork.org/incidentreporting/"
+      },
+      {
+        "type": "email",
+        "label": "DutyDesk@securecommunitynetwork.org",
+        "value": "DutyDesk@securecommunitynetwork.org"
+      },
+      {
+        "type": "phone",
+        "label": "844-SCN-DESK (844-726-3375)",
+        "value": "+18447263375"
+      }
+    ],
+    "primaryAction": {
+      "label": "Go to SCN's reporting page",
+      "url": "https://www.securecommunitynetwork.org/incidentreporting/"
+    },
+    "verifyText": "Report a Threat",
+    "hours": "24/7 Duty Desk and Command Center",
+    "whatHappensNext": "Analysts at SCN's 24/7 Duty Desk assess the report. Credible threats are shared with law enforcement and Jewish community leaders as needed.",
+    "situations": [
+      "anywhere",
+      "campus",
+      "workplace",
+      "school",
+      "online",
+      "synagogue"
+    ],
+    "incidentTypes": [
+      "harassment",
+      "threats",
+      "vandalism",
+      "suspicious"
+    ],
+    "lastVerified": "2026-10-07"
+  },
+  {
+    "id": "adl",
+    "name": "ADL",
+    "fullName": "Anti-Defamation League",
+    "kicker": "Reporting · Legal help",
+    "categories": [
+      "antisemitism"
+    ],
+    "ageRange": "all",
+    "primary": false,
+    "description": [
+      "Takes reports of antisemitism, bias, and discrimination, including harassment that is not a crime. You can use the online form, or a guided assistant that walks you through it and suggests resources.",
+      "ADL's Legal Action Network, run with Gibson Dunn and partner law firms, reviews whether free legal support can be offered."
+    ],
+    "acceptsNonCriminal": true,
+    "anonymous": "unstated",
+    "cost": "Free",
+    "referralRequired": false,
+    "contact": [
+      {
+        "type": "form",
+        "label": "Incident report form",
+        "url": "https://www.adl.org/report-incident"
+      },
+      {
+        "type": "url",
+        "label": "ADL Legal Action Network",
+        "url": "https://notoleranceforantisemitism.adl.org/adl-legal-action"
+      }
+    ],
+    "primaryAction": {
+      "label": "Go to ADL's reporting page",
+      "url": "https://www.adl.org/report-incident"
+    },
+    "verifyText": "Report an Incident",
+    "hours": "Online form, any time",
+    "whatHappensNext": "ADL's experts review the report to see how ADL may be able to help. It may also be counted in ADL's annual Audit of Antisemitic Incidents.",
+    "situations": [
+      "anywhere",
+      "campus",
+      "workplace",
+      "school",
+      "online",
+      "synagogue"
+    ],
+    "incidentTypes": [
+      "harassment",
+      "threats",
+      "vandalism",
+      "discrimination"
+    ],
+    "lastVerified": "2026-10-07"
+  },
+  {
+    "id": "reportcampushate",
+    "name": "ReportCampusHate.org",
+    "fullName": "A partnership of Hillel International, ADL, and the Secure Community Network",
+    "kicker": "Reporting · Campus",
+    "categories": [
+      "antisemitism",
+      "students"
+    ],
+    "ageRange": "students",
+    "primary": false,
+    "description": [
+      "For antisemitic or bias incidents targeting Jewish students, faculty, and staff at colleges and universities in North America. You can report anonymously, but leaving contact details lets them help you more directly."
+    ],
+    "acceptsNonCriminal": true,
+    "anonymous": "yes",
+    "cost": "Free",
+    "referralRequired": false,
+    "contact": [
+      {
+        "type": "form",
+        "label": "ReportCampusHate.org",
+        "url": "https://www.reportcampushate.org/"
+      }
+    ],
+    "primaryAction": {
+      "label": "Go to ReportCampusHate.org",
+      "url": "https://www.reportcampushate.org/"
+    },
+    "verifyText": "Report Campus Hate",
+    "hours": "Online form, any time",
+    "whatHappensNext": "Trained staff review each report and support you, involving your local Hillel, the campus administration, or law enforcement as appropriate.",
+    "situations": [
+      "campus"
+    ],
+    "incidentTypes": [
+      "harassment",
+      "threats",
+      "vandalism",
+      "discrimination",
+      "suspicious"
+    ],
+    "lastVerified": "2026-10-07"
+  },
+  {
+    "id": "call",
+    "name": "CALL",
+    "fullName": "Campus Antisemitism Legal Line",
+    "kicker": "Legal help · Campus and K–12",
+    "categories": [
+      "antisemitism",
+      "students"
+    ],
+    "ageRange": "students",
+    "primary": false,
+    "description": [
+      "A free, confidential way to report antisemitism on campus and get legal support. It is run by Hillel International, ADL, and the Louis D. Brandeis Center. Examples include being treated differently because you are Jewish, harassment in person or online, and damage to your property.",
+      "There is a separate route for K–12 schools."
+    ],
+    "acceptsNonCriminal": true,
+    "anonymous": "unstated",
+    "cost": "Free and confidential",
+    "referralRequired": false,
+    "contact": [
+      {
+        "type": "form",
+        "label": "Request legal review (college)",
+        "url": "https://www.legal-protection.org/"
+      },
+      {
+        "type": "form",
+        "label": "K–12 schools",
+        "url": "https://www.legal-protection.org/k-12"
+      },
+      {
+        "type": "email",
+        "label": "CALL@legal-protection.org",
+        "value": "CALL@legal-protection.org"
+      }
+    ],
+    "primaryAction": {
+      "label": "Go to CALL's reporting page",
+      "url": "https://www.legal-protection.org/"
+    },
+    "verifyText": "Campus Antisemitism Legal Line",
+    "hours": "Online form, any time",
+    "whatHappensNext": "Attorneys from Hillel, ADL, and the Brandeis Center review each report together and decide on next steps.",
+    "situations": [
+      "campus",
+      "school",
+      "online"
+    ],
+    "incidentTypes": [
+      "harassment",
+      "threats",
+      "vandalism",
+      "discrimination"
+    ],
+    "lastVerified": "2026-10-07"
+  },
+  {
+    "id": "njhsa",
+    "name": "Find a Jewish Family Service near you",
+    "fullName": "Network of Jewish Human Service Agencies — Member Locator",
+    "kicker": "All ages · Start here",
+    "categories": [
+      "counseling",
+      "hardship",
+      "recovery",
+      "survivors",
+      "find-help"
+    ],
+    "ageRange": "all",
+    "primary": true,
+    "description": [
+      "Local Jewish Family Service (JFS) and Jewish Family & Children's Service (JFCS) agencies help people of every age: individuals, couples, families, and older adults. The Network of Jewish Human Service Agencies connects more than 170 of them across the United States and Canada.",
+      "The Network does not provide services itself. Its Member Locator lets you search by state or distance to find the agency nearest you."
+    ],
+    "cost": "Free to search. Ask the agency about fees.",
+    "referralRequired": false,
+    "contact": [
+      {
+        "type": "url",
+        "label": "NJHSA Member Locator",
+        "url": "https://networkjhsa.org/member-locator/"
+      }
+    ],
+    "primaryAction": {
+      "label": "Find an agency near you",
+      "url": "https://networkjhsa.org/member-locator/"
+    },
+    "verifyText": "Member Locator",
+    "hours": "Varies by agency",
+    "whatHappensNext": "Contact the agency directly. Say what you need, and they will tell you what they offer or where to go next.",
+    "situations": [],
+    "incidentTypes": [],
+    "lastVerified": "2026-10-07"
+  },
+  {
+    "id": "bewell",
+    "name": "BeWell",
+    "fullName": "Jewish Federations of North America",
+    "kicker": "Teens and young adults",
+    "categories": [
+      "counseling"
+    ],
+    "ageRange": "12-26",
+    "primary": false,
+    "description": [
+      "The mental health and wellbeing initiative of the Jewish Federations of North America, focused on young people aged 12 to 26. It offers resources and events for teens and young adults, parents and caregivers, and the Jewish professionals who work with them. BaMidbar and The Blue Dove Foundation are now part of BeWell."
+    ],
+    "cost": "Free resources",
+    "referralRequired": false,
+    "contact": [
+      {
+        "type": "url",
+        "label": "BeWell",
+        "url": "https://www.jewishtogether.org/bewell"
+      }
+    ],
+    "primaryAction": {
+      "label": "Go to BeWell",
+      "url": "https://www.jewishtogether.org/bewell"
+    },
+    "verifyText": "BeWell",
+    "hours": "",
+    "whatHappensNext": "BeWell is mostly resources and training. For one-to-one counseling, use the agency locator above.",
+    "situations": [],
+    "incidentTypes": [],
+    "lastVerified": "2026-10-07"
+  },
+  {
+    "id": "hillel",
+    "name": "Hillel",
+    "fullName": "Hillel International",
+    "kicker": "College and graduate students",
+    "categories": [
+      "counseling",
+      "students"
+    ],
+    "ageRange": "students",
+    "primary": false,
+    "description": [
+      "Jewish community and support on hundreds of campuses. Your Hillel staff know what support is available at your school. Working with the Network of Jewish Human Service Agencies and the Jewish Federations, Hillel connects students to services including mental health counseling."
+    ],
+    "cost": "Free",
+    "referralRequired": false,
+    "contact": [
+      {
+        "type": "url",
+        "label": "Find a Hillel",
+        "url": "https://www.hillel.org/find-a-hillel/"
+      },
+      {
+        "type": "url",
+        "label": "Student support resources",
+        "url": "https://www.hillel.org/resources-for-students/"
+      }
+    ],
+    "primaryAction": {
+      "label": "Find the Hillel on your campus",
+      "url": "https://www.hillel.org/find-a-hillel/"
+    },
+    "verifyText": "Hillel",
+    "hours": "Varies by campus",
+    "whatHappensNext": "Talk to a Hillel professional on your campus. They can connect you to counseling and other support nearby.",
+    "situations": [],
+    "incidentTypes": [],
+    "lastVerified": "2026-10-07"
+  },
+  {
+    "id": "chabad-campus",
+    "name": "Chabad on Campus",
+    "fullName": "Chabad on Campus International",
+    "kicker": "College students",
+    "categories": [
+      "students"
+    ],
+    "ageRange": "students",
+    "primary": false,
+    "description": [
+      "Chabad Houses on campuses around the world. They describe themselves as a place for a listening ear, open to every Jewish student whatever their background."
+    ],
+    "cost": "Free",
+    "referralRequired": false,
+    "contact": [
+      {
+        "type": "url",
+        "label": "Chabad on Campus directory",
+        "url": "https://chabadoncampus.org/directory/"
+      }
+    ],
+    "primaryAction": {
+      "label": "Find Chabad on your campus",
+      "url": "https://chabadoncampus.org/directory/"
+    },
+    "verifyText": "Chabad",
+    "hours": "Varies by campus",
+    "whatHappensNext": "Contact the rabbi or staff at your campus Chabad House directly.",
+    "situations": [],
+    "incidentTypes": [],
+    "lastVerified": "2026-10-07"
+  },
+  {
+    "id": "federations",
+    "name": "Your local Jewish Federation",
+    "fullName": "Jewish Federations of North America — Federation Finder",
+    "kicker": "Local community",
+    "categories": [
+      "hardship"
+    ],
+    "ageRange": "all",
+    "primary": false,
+    "description": [
+      "Local Jewish Federations fund and coordinate community services in their area, including the local Jewish Family Service. If you are not sure where to begin, your Federation can point you to the right local service."
+    ],
+    "cost": "Free to contact",
+    "referralRequired": false,
+    "contact": [
+      {
+        "type": "url",
+        "label": "Find your Federation",
+        "url": "https://www.jewishfederations.org/federation-finder"
+      }
+    ],
+    "primaryAction": {
+      "label": "Find your local Federation",
+      "url": "https://www.jewishfederations.org/federation-finder"
+    },
+    "verifyText": "Find Your Federation",
+    "hours": "Varies by Federation",
+    "whatHappensNext": "Contact your Federation and ask which local service fits your situation.",
+    "situations": [],
+    "incidentTypes": [],
+    "lastVerified": "2026-10-07"
+  },
+  {
+    "id": "jacs",
+    "name": "JACS",
+    "fullName": "Jewish Alcoholics, Chemically Dependent Persons, and Significant Others — a program of the Jewish Board",
+    "kicker": "Recovery · Individuals and families",
+    "categories": [
+      "recovery"
+    ],
+    "ageRange": "all",
+    "primary": true,
+    "description": [
+      "A Jewish support network for people and families affected by addiction, run by the Jewish Board in New York. Like other 12-Step programs, it offers a safe, anonymous space, and it draws on Jewish values and traditions. Everyone is welcome, whatever their background or how they practice.",
+      "JACS connects people to meetings, programs, and recovery resources. Its Warm Line is staffed by volunteers who are themselves Jewish 12-Steppers."
+    ],
+    "cost": "Ask JACS",
+    "referralRequired": false,
+    "contact": [
+      {
+        "type": "url",
+        "label": "JACS at the Jewish Board",
+        "url": "https://jewishboard.org/how-we-can-help/jewish-community-services/jacs/"
+      },
+      {
+        "type": "phone",
+        "label": "Warm Line: 646-573-7420",
+        "value": "+16465737420"
+      },
+      {
+        "type": "email",
+        "label": "jcsrecovery@jbfcs.org",
+        "value": "jcsrecovery@jbfcs.org"
+      }
+    ],
+    "primaryAction": {
+      "label": "Go to JACS",
+      "url": "https://jewishboard.org/how-we-can-help/jewish-community-services/jacs/"
+    },
+    "verifyText": "JACS",
+    "hours": "Warm Line: after 8pm on weekdays, and on weekends",
+    "whatHappensNext": "A volunteer or staff member listens and connects you with meetings, programs, or other recovery resources.",
+    "situations": [],
+    "incidentTypes": [],
+    "lastVerified": "2026-10-07"
+  },
+  {
+    "id": "our-jewish-recovery",
+    "name": "Our Jewish Recovery",
+    "fullName": "Online community",
+    "kicker": "Recovery · Online",
+    "categories": [
+      "recovery"
+    ],
+    "ageRange": "all",
+    "primary": false,
+    "description": [
+      "An online community for everyone in the Jewish community affected by addiction: people in recovery and the people who love them. It draws on Jewish values and recovery wisdom, and it began as a Facebook group in 2019."
+    ],
+    "cost": "Ask them",
+    "referralRequired": false,
+    "contact": [
+      {
+        "type": "url",
+        "label": "ourjewishrecovery.com",
+        "url": "https://www.ourjewishrecovery.com/"
+      }
+    ],
+    "primaryAction": {
+      "label": "Go to Our Jewish Recovery",
+      "url": "https://www.ourjewishrecovery.com/"
+    },
+    "verifyText": "Our Jewish Recovery",
+    "hours": "Online",
+    "whatHappensNext": "Join the community or contact them through their website.",
+    "situations": [],
+    "incidentTypes": [],
+    "lastVerified": "2026-10-07"
+  },
+  {
+    "id": "beit-tshuvah",
+    "name": "Beit T'Shuvah",
+    "fullName": "Los Angeles",
+    "kicker": "Recovery · Treatment",
+    "categories": [
+      "recovery"
+    ],
+    "ageRange": "all",
+    "primary": false,
+    "description": [
+      "A licensed addiction treatment center in Los Angeles that is also a congregation and an educational institute. It offers residential treatment, an intensive outpatient program, a family program, and help with gambling. It also hosts recovery meetings and Shabbat services, with an online archive of livestreamed services."
+    ],
+    "cost": "Ask about cost and insurance",
+    "referralRequired": false,
+    "contact": [
+      {
+        "type": "url",
+        "label": "beittshuvah.org",
+        "url": "https://beittshuvah.org/"
+      },
+      {
+        "type": "url",
+        "label": "Meetings schedule",
+        "url": "https://beittshuvah.org/meetings/"
+      }
+    ],
+    "primaryAction": {
+      "label": "Go to Beit T'Shuvah",
+      "url": "https://beittshuvah.org/"
+    },
+    "verifyText": "Beit T",
+    "hours": "See their website",
+    "whatHappensNext": "Their admissions team can talk you or a family member through treatment options.",
+    "situations": [],
+    "incidentTypes": [],
+    "lastVerified": "2026-10-07"
+  },
+  {
+    "id": "njhsa-survivors",
+    "name": "Start with a Jewish agency near you",
+    "fullName": "Network of Jewish Human Service Agencies — Member Locator",
+    "kicker": "Older adults · Holocaust survivors · Start here",
+    "categories": [
+      "survivors"
+    ],
+    "ageRange": "older-adults",
+    "primary": true,
+    "description": [
+      "Local Jewish Family Service agencies help older adults and Holocaust survivors with things like care at home, transportation, food, medication, and day-to-day needs. Many also help survivors apply for compensation.",
+      "A local agency is usually the first step for The Blue Card, because The Blue Card only accepts survivors referred by a social service or government agency."
+    ],
+    "cost": "Free to search. Ask the agency about fees.",
+    "referralRequired": false,
+    "contact": [
+      {
+        "type": "url",
+        "label": "NJHSA Member Locator",
+        "url": "https://networkjhsa.org/member-locator/"
+      }
+    ],
+    "primaryAction": {
+      "label": "Find an agency near you",
+      "url": "https://networkjhsa.org/member-locator/"
+    },
+    "verifyText": "Member Locator",
+    "hours": "Varies by agency",
+    "whatHappensNext": "A case manager at the agency talks with you about what is needed and what help is available.",
+    "situations": [],
+    "incidentTypes": [],
+    "lastVerified": "2026-10-07"
+  },
+  {
+    "id": "blue-card",
+    "name": "The Blue Card",
+    "fullName": "Financial assistance for Holocaust survivors",
+    "kicker": "Holocaust survivors",
+    "categories": [
+      "survivors"
+    ],
+    "ageRange": "older-adults",
+    "primary": false,
+    "description": [
+      "The only organization in the United States whose sole mission is giving financial help to Holocaust survivors in need. It offers both long-term support and emergency grants for basic needs."
+    ],
+    "cost": "Free",
+    "referralRequired": true,
+    "referralText": "Survivors cannot apply directly. A social service or government agency in your area must refer you, and a case manager there completes a financial assessment. The Blue Card is an agency of last resort: it helps once other local and government help has been explored.",
+    "contact": [
+      {
+        "type": "url",
+        "label": "bluecardfund.org",
+        "url": "https://bluecardfund.org/"
+      },
+      {
+        "type": "url",
+        "label": "How referrals work",
+        "url": "https://bluecardfund.org/social-workers/new-applicant/"
+      }
+    ],
+    "primaryAction": {
+      "label": "Go to The Blue Card",
+      "url": "https://bluecardfund.org/"
+    },
+    "verifyText": "Blue Card",
+    "hours": "",
+    "whatHappensNext": "After the referring agency's assessment, The Blue Card reviews whether the survivor is eligible.",
+    "situations": [],
+    "incidentTypes": [],
+    "lastVerified": "2026-10-07"
+  },
+  {
+    "id": "claims-conference",
+    "name": "Claims Conference",
+    "fullName": "Conference on Jewish Material Claims Against Germany",
+    "kicker": "Holocaust survivors · Compensation",
+    "categories": [
+      "survivors"
+    ],
+    "ageRange": "older-adults",
+    "primary": false,
+    "description": [
+      "Runs compensation programs for Holocaust survivors and funds the social service agencies that provide home care and other help.",
+      "The Claims Conference does not charge survivors or families a fee to apply, and you do not need a lawyer or any paid go-between. Many people get help with the forms from a local Jewish Family Service."
+    ],
+    "cost": "No fee to apply",
+    "referralRequired": false,
+    "contact": [
+      {
+        "type": "url",
+        "label": "claimscon.org",
+        "url": "https://www.claimscon.org/"
+      },
+      {
+        "type": "url",
+        "label": "Compensation programs",
+        "url": "https://www.claimscon.org/our-work/compensation/"
+      },
+      {
+        "type": "url",
+        "label": "Warning about unsolicited offers",
+        "url": "https://www.claimscon.org/notice-regarding-unsolicited-holocaust-compensation-correspondence/"
+      }
+    ],
+    "primaryAction": {
+      "label": "Go to the Claims Conference",
+      "url": "https://www.claimscon.org/"
+    },
+    "verifyText": "Claims Conference",
+    "hours": "",
+    "whatHappensNext": "Be cautious if anyone you didn't contact asks for a fee or personal details to help with a claim.",
+    "situations": [],
+    "incidentTypes": [],
+    "lastVerified": "2026-10-07"
+  }
+]
